@@ -16,7 +16,7 @@ list (APPEND CMAKE_MODULE_PATH
   "${CMAKE_CURRENT_SOURCE_DIR}/cmake/platforms")
 
 include (syscheck)
-project (osr_legacy_apps C)
+project (osr_legacy_apps C ASM)
 
 include (CheckIncludeFiles)
 include (CheckCSourceCompiles)
